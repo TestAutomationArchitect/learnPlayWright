@@ -1,0 +1,126 @@
+<testsuites id="" name="" tests="24" failures="1" skipped="2" errors="0" time="95.55021500003338">
+<testsuite name="ui\bessemerExperience.spec.ts" timestamp="1679058775417" hostname="" tests="3" failures="0" skipped="0" time="29.933" errors="0">
+<testcase name="Bessemer Experience › Validate relationship that lasts link and contents" classname="ui\bessemerExperience.spec.ts" time="9.349">
+</testcase>
+<testcase name="Bessemer Experience › Validate always on your side link and contents" classname="ui\bessemerExperience.spec.ts" time="10.312">
+</testcase>
+<testcase name="Bessemer Experience › Validate Deep Family office expertise link and contents" classname="ui\bessemerExperience.spec.ts" time="10.272">
+</testcase>
+</testsuite>
+<testsuite name="ui\clientLogin.spec.ts" timestamp="1679058775417" hostname="" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Login tests › Validate successfull login" classname="ui\clientLogin.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="ui\footer.spec.ts" timestamp="1679058775417" hostname="" tests="6" failures="0" skipped="0" time="55.839" errors="0">
+<testcase name="Footer Content › validate Footer is visible on homepage" classname="ui\footer.spec.ts" time="9.693">
+</testcase>
+<testcase name="Footer Content › validate Footer content on homepage" classname="ui\footer.spec.ts" time="5.733">
+</testcase>
+<testcase name="Footer Content › validate Privacy Policy link click navigates to correct page" classname="ui\footer.spec.ts" time="6.189">
+</testcase>
+<testcase name="Footer Content › validate Terms click navigates to correct page" classname="ui\footer.spec.ts" time="5.871">
+</testcase>
+<testcase name="Footer Content › validate Accessibilty click navigates to correct page" classname="ui\footer.spec.ts" time="6.222">
+</testcase>
+<testcase name="Footer Content › validate Member FDIC link click navigates to correct page" classname="ui\footer.spec.ts" time="22.131">
+</testcase>
+</testsuite>
+<testsuite name="ui\homePage.spec.ts" timestamp="1679058775417" hostname="" tests="1" failures="0" skipped="0" time="11.193" errors="0">
+<testcase name="Bessemer Home Page › validate Bessemer homepage layout" classname="ui\homePage.spec.ts" time="11.193">
+</testcase>
+</testsuite>
+<testsuite name="ui\insightEducation.spec.ts" timestamp="1679058775417" hostname="" tests="2" failures="0" skipped="0" time="24.466" errors="0">
+<testcase name="Insights &amp; Education › Validate insights link and contents" classname="ui\insightEducation.spec.ts" time="11.362">
+</testcase>
+<testcase name="Insights &amp; Education › Validate Financial education link and contents" classname="ui\insightEducation.spec.ts" time="13.104">
+</testcase>
+</testsuite>
+<testsuite name="ui\ourOffices.spec.ts" timestamp="1679058775417" hostname="" tests="4" failures="1" skipped="1" time="31.417" errors="0">
+<testcase name="Our Offices › Validate Google map is displayed on the page" classname="ui\ourOffices.spec.ts" time="7.764">
+</testcase>
+<testcase name="Our Offices › Validate an office location on Google map is displayed" classname="ui\ourOffices.spec.ts" time="11.246">
+<system-out>
+<![CDATA[Grand Cayman
+]]>
+</system-out>
+</testcase>
+<testcase name="Our Offices › Validate an office detail displayed when clicking on Google map location icon" classname="ui\ourOffices.spec.ts" time="12.407">
+<failure message="ourOffices.spec.ts:49:7 Validate an office detail displayed when clicking on Google map location icon" type="FAILURE">
+<![CDATA[  ui\ourOffices.spec.ts:49:7 › Our Offices › Validate an office detail displayed when clicking on Google map location icon 
+
+    Error: expect(received).toHaveURL(expected)
+
+    Expected string: "https://www.bessemertrust.com/offices/los%20angeles-wealth-management"
+    Received string: "https://www.bessemertrust.com/offices/los-angeles-wealth-management"
+    Call log:
+      - expect.toHaveURL with timeout 5000ms
+      - waiting for locator(':root')
+      -   locator resolved to <html lang="en" dir="ltr" itemscope="" itemtype="http:…>…</html>
+      -   unexpected value "https://www.bessemertrust.com/offices/los-angeles-wealth-management"
+      - waiting for locator(':root')
+      -   locator resolved to <html lang="en" dir="ltr" itemscope="" itemtype="http:…>…</html>
+      -   unexpected value "https://www.bessemertrust.com/offices/los-angeles-wealth-management"
+      -   locator resolved to <html lang="en" dir="ltr" itemscope="" itemtype="http:…>…</html>
+      -   unexpected value "https://www.bessemertrust.com/offices/los-angeles-wealth-management"
+      -   locator resolved to <html lang="en" dir="ltr" class=" js" itemscope="" ite…>…</html>
+      -   unexpected value "https://www.bessemertrust.com/offices/los-angeles-wealth-management"
+      -   locator resolved to <html lang="en" dir="ltr" class=" js" itemscope="" ite…>…</html>
+      -   unexpected value "https://www.bessemertrust.com/offices/los-angeles-wealth-management"
+
+
+      65 |
+      66 |     //validate url and office title
+    > 67 |     expect(page).toHaveURL(url)
+         |                  ^
+      68 |     expect(await ourOfficesPage.officeTitle.textContent()).toContain(officeName);
+      69 |
+      70 |   });
+
+        at C:\AutomationSpace\PlayWrightTests\learnPlayWright\integration\tests\ui\ourOffices.spec.ts:67:18
+
+    Test timeout of 30000ms exceeded while tearing down "context".
+
+    attachment #1: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\ui-ourOffices-Our-Offices-Validate-an-office-d-f0eb4-layed-when-clicking-on-Google-map-location-icon\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\ui-ourOffices-Our-Offices-Validate-an-office-d-f0eb4-layed-when-clicking-on-Google-map-location-icon\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[Los Angeles
+
+[[ATTACHMENT|..\..\test-results\ui-ourOffices-Our-Offices-Validate-an-office-d-f0eb4-layed-when-clicking-on-Google-map-location-icon\video.webm]]
+
+[[ATTACHMENT|..\..\test-results\ui-ourOffices-Our-Offices-Validate-an-office-d-f0eb4-layed-when-clicking-on-Google-map-location-icon\test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Our Offices › Validate office locations on Google map" classname="ui\ourOffices.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="ui\whatMakesUsDifferent.spec.ts" timestamp="1679058775417" hostname="" tests="3" failures="0" skipped="0" time="44.458" errors="0">
+<testcase name="What Makes Us Different › Validate Peace of mind link and contents" classname="ui\whatMakesUsDifferent.spec.ts" time="14.187">
+</testcase>
+<testcase name="What Makes Us Different › Validate Key facts link and contents" classname="ui\whatMakesUsDifferent.spec.ts" time="15.693">
+</testcase>
+<testcase name="What Makes Us Different › Validate Our leaders link and contents" classname="ui\whatMakesUsDifferent.spec.ts" time="14.578">
+</testcase>
+</testsuite>
+<testsuite name="ui\whatWeDoForYou.spec.ts" timestamp="1679058775417" hostname="" tests="4" failures="0" skipped="0" time="31.056" errors="0">
+<testcase name="What We Do For You › Validate managing your financial life link and contents" classname="ui\whatWeDoForYou.spec.ts" time="6.514">
+</testcase>
+<testcase name="What We Do For You › Validate Wealth planning link and contents" classname="ui\whatWeDoForYou.spec.ts" time="8.591">
+</testcase>
+<testcase name="What We Do For You › Validate investment management link and contents" classname="ui\whatWeDoForYou.spec.ts" time="7.83">
+</testcase>
+<testcase name="What We Do For You › Validate Family office services link and contents" classname="ui\whatWeDoForYou.spec.ts" time="8.121">
+</testcase>
+</testsuite>
+</testsuites>

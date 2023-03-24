@@ -1,0 +1,1038 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": "C:\\AutomationSpace\\PlayWrightTests\\learnPlayWright\\integration\\global-setup.ts",
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/AutomationSpace/PlayWrightTests/learnPlayWright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "",
+        "testDir": "C:/AutomationSpace/PlayWrightTests/learnPlayWright/integration/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "C:\\AutomationSpace\\PlayWrightTests\\learnPlayWright/integration/test-results/jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "C:\\AutomationSpace\\PlayWrightTests\\learnPlayWright/integration/test-results/html/",
+          "open": "never"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "C:\\AutomationSpace\\PlayWrightTests\\learnPlayWright/integration/test-results/results.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "configFile": "C:\\AutomationSpace\\PlayWrightTests\\learnPlayWright\\integration\\configs\\playwright.config.ts",
+    "rootDir": "C:/AutomationSpace/PlayWrightTests/learnPlayWright/integration/tests",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.31.2",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "ui\\bessemerExperience.spec.ts",
+      "file": "ui/bessemerExperience.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Bessemer Experience",
+          "file": "ui/bessemerExperience.spec.ts",
+          "line": 8,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Validate relationship that lasts link and contents",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 9349,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-17T13:12:58.542Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c186aa6ae3daad87ec8b-0e99dbe155afc1c2926a",
+              "file": "ui/bessemerExperience.spec.ts",
+              "line": 22,
+              "column": 7
+            },
+            {
+              "title": "Validate always on your side link and contents",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 10312,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-17T13:12:58.556Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c186aa6ae3daad87ec8b-bbaf8b9c75340f529edb",
+              "file": "ui/bessemerExperience.spec.ts",
+              "line": 33,
+              "column": 7
+            },
+            {
+              "title": "Validate Deep Family office expertise link and contents",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 10272,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-17T13:12:58.556Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c186aa6ae3daad87ec8b-12f3b59f5c717855cf39",
+              "file": "ui/bessemerExperience.spec.ts",
+              "line": 48,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ui\\clientLogin.spec.ts",
+      "file": "ui/clientLogin.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login tests",
+          "file": "ui/clientLogin.spec.ts",
+          "line": 14,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Validate successfull login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip"
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-17T13:12:57.459Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "fa7f4f1659b3743b55c0-7f6c783c1236c1c473ad",
+              "file": "ui/clientLogin.spec.ts",
+              "line": 24,
+              "column": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ui\\footer.spec.ts",
+      "file": "ui/footer.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Footer Content",
+          "file": "ui/footer.spec.ts",
+          "line": 11,
+          "column": 6,
+          "specs": [
+            {
+              "title": "validate Footer is visible on homepage",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 9693,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-17T13:12:58.765Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aceeb1f0d2b72045fb37-600ec43caed9408470a2",
+              "file": "ui/footer.spec.ts",
+              "line": 28,
+              "column": 7
+            },
+            {
+              "title": "validate Footer content on homepage",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 5733,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-17T13:13:24.693Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aceeb1f0d2b72045fb37-33be035ded8d244f5178",
+              "file": "ui/footer.spec.ts",
+              "line": 33,
+              "column": 7
+            },
+            {
+              "title": "validate Privacy Policy link click navigates to correct page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 6189,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-17T13:13:25.622Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aceeb1f0d2b72045fb37-1821db9d97f80fe4131f",
+              "file": "ui/footer.spec.ts",
+              "line": 47,
+              "column": 7
+            },
+            {
+              "title": "validate Terms click navigates to correct page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 5871,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-17T13:13:25.682Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aceeb1f0d2b72045fb37-b65f1ca1a82031031b4f",
+              "file": "ui/footer.spec.ts",
+              "line": 58,
+              "column": 7
+            },
+            {
+              "title": "validate Accessibilty click navigates to correct page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 6222,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-17T13:13:26.079Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aceeb1f0d2b72045fb37-dee063c65abaab09aea5",
+              "file": "ui/footer.spec.ts",
+              "line": 69,
+              "column": 6
+            },
+            {
+              "title": "validate Member FDIC link click navigates to correct page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 22131,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-17T13:13:30.436Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aceeb1f0d2b72045fb37-977a2be4f10f091e4bc0",
+              "file": "ui/footer.spec.ts",
+              "line": 80,
+              "column": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ui\\homePage.spec.ts",
+      "file": "ui/homePage.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Bessemer Home Page",
+          "file": "ui/homePage.spec.ts",
+          "line": 8,
+          "column": 6,
+          "specs": [
+            {
+              "title": "validate Bessemer homepage layout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 11193,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Check for bessemer logo on home page",
+                          "duration": 251
+                        },
+                        {
+                          "title": "Check client login button is displayed",
+                          "duration": 69
+                        },
+                        {
+                          "title": "validate search feature",
+                          "duration": 3469
+                        },
+                        {
+                          "title": "Check footer is displyed on home page",
+                          "duration": 27
+                        },
+                        {
+                          "title": "Check sidebar links are displayed on home page",
+                          "duration": 323
+                        }
+                      ],
+                      "startTime": "2023-03-17T13:13:31.564Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "14c30f21716bfb014170-4fdb35795e4e1fd8f70a",
+              "file": "ui/homePage.spec.ts",
+              "line": 22,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ui\\insightEducation.spec.ts",
+      "file": "ui/insightEducation.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Insights & Education",
+          "file": "ui/insightEducation.spec.ts",
+          "line": 8,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Validate insights link and contents",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 11362,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Check insights link",
+                          "duration": 1125
+                        },
+                        {
+                          "title": "Check insights contents",
+                          "duration": 2543
+                        }
+                      ],
+                      "startTime": "2023-03-17T13:13:31.824Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3b23a6ca481ae5008aa2-6f8609606df42ee8ae61",
+              "file": "ui/insightEducation.spec.ts",
+              "line": 22,
+              "column": 7
+            },
+            {
+              "title": "Validate Financial education link and contents",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 13104,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Check Finalcial education link",
+                          "duration": 866
+                        },
+                        {
+                          "title": "Check fiancial education content",
+                          "duration": 3990
+                        }
+                      ],
+                      "startTime": "2023-03-17T13:13:32.314Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3b23a6ca481ae5008aa2-816d260b689962df4705",
+              "file": "ui/insightEducation.spec.ts",
+              "line": 39,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ui\\ourOffices.spec.ts",
+      "file": "ui/ourOffices.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Our Offices",
+          "file": "ui/ourOffices.spec.ts",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Validate Google map is displayed on the page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 7764,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-17T13:13:42.802Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8db9684a31fcc9fff3aa-6207bdc602f4b3c8f0f5",
+              "file": "ui/ourOffices.spec.ts",
+              "line": 27,
+              "column": 7
+            },
+            {
+              "title": "Validate an office location on Google map is displayed",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 11246,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Grand Cayman\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-17T13:13:43.206Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8db9684a31fcc9fff3aa-4bb4359daecf14afb398",
+              "file": "ui/ourOffices.spec.ts",
+              "line": 34,
+              "column": 7
+            },
+            {
+              "title": "Validate an office detail displayed when clicking on Google map location icon",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "failed",
+                      "duration": 12407,
+                      "error": {
+                        "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected string: \u001b[32m\"https://www.bessemertrust.com/offices/los\u001b[7m%20\u001b[27mangeles-wealth-management\"\u001b[39m\nReceived string: \u001b[31m\"https://www.bessemertrust.com/offices/los\u001b[7m-\u001b[27mangeles-wealth-management\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toHaveURL with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" itemscope=\"\" itemtype=\"http:…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.bessemertrust.com/offices/los-angeles-wealth-management\"\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" itemscope=\"\" itemtype=\"http:…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.bessemertrust.com/offices/los-angeles-wealth-management\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" itemscope=\"\" itemtype=\"http:…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.bessemertrust.com/offices/los-angeles-wealth-management\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" class=\" js\" itemscope=\"\" ite…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.bessemertrust.com/offices/los-angeles-wealth-management\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" class=\" js\" itemscope=\"\" ite…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.bessemertrust.com/offices/los-angeles-wealth-management\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected string: \u001b[32m\"https://www.bessemertrust.com/offices/los\u001b[7m%20\u001b[27mangeles-wealth-management\"\u001b[39m\nReceived string: \u001b[31m\"https://www.bessemertrust.com/offices/los\u001b[7m-\u001b[27mangeles-wealth-management\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toHaveURL with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" itemscope=\"\" itemtype=\"http:…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.bessemertrust.com/offices/los-angeles-wealth-management\"\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" itemscope=\"\" itemtype=\"http:…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.bessemertrust.com/offices/los-angeles-wealth-management\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" itemscope=\"\" itemtype=\"http:…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.bessemertrust.com/offices/los-angeles-wealth-management\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" class=\" js\" itemscope=\"\" ite…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.bessemertrust.com/offices/los-angeles-wealth-management\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" class=\" js\" itemscope=\"\" ite…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.bessemertrust.com/offices/los-angeles-wealth-management\"\u001b[22m\n\n    at C:\\AutomationSpace\\PlayWrightTests\\learnPlayWright\\integration\\tests\\ui\\ourOffices.spec.ts:67:18"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\AutomationSpace\\PlayWrightTests\\learnPlayWright\\integration\\tests\\ui\\ourOffices.spec.ts",
+                            "column": 18,
+                            "line": 67
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected string: \u001b[32m\"https://www.bessemertrust.com/offices/los\u001b[7m%20\u001b[27mangeles-wealth-management\"\u001b[39m\nReceived string: \u001b[31m\"https://www.bessemertrust.com/offices/los\u001b[7m-\u001b[27mangeles-wealth-management\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toHaveURL with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" itemscope=\"\" itemtype=\"http:…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.bessemertrust.com/offices/los-angeles-wealth-management\"\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" itemscope=\"\" itemtype=\"http:…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.bessemertrust.com/offices/los-angeles-wealth-management\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" itemscope=\"\" itemtype=\"http:…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.bessemertrust.com/offices/los-angeles-wealth-management\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" class=\" js\" itemscope=\"\" ite…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.bessemertrust.com/offices/los-angeles-wealth-management\"\u001b[22m\n\u001b[2m  -   locator resolved to <html lang=\"en\" dir=\"ltr\" class=\" js\" itemscope=\"\" ite…>…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"https://www.bessemertrust.com/offices/los-angeles-wealth-management\"\u001b[22m\n\n\n\u001b[90m   at \u001b[39mui\\ourOffices.spec.ts:67\n\n\u001b[0m \u001b[90m 65 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 66 |\u001b[39m     \u001b[90m//validate url and office title\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 67 |\u001b[39m     expect(page)\u001b[33m.\u001b[39mtoHaveURL(url)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 68 |\u001b[39m     expect(\u001b[36mawait\u001b[39m ourOfficesPage\u001b[33m.\u001b[39mofficeTitle\u001b[33m.\u001b[39mtextContent())\u001b[33m.\u001b[39mtoContain(officeName)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 69 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 70 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\AutomationSpace\\PlayWrightTests\\learnPlayWright\\integration\\tests\\ui\\ourOffices.spec.ts:67:18\u001b[22m"
+                        },
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded while tearing down \"context\".\u001b[39m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Los Angeles\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-17T13:13:45.434Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\AutomationSpace\\PlayWrightTests\\learnPlayWright\\test-results\\ui-ourOffices-Our-Offices-Validate-an-office-d-f0eb4-layed-when-clicking-on-Google-map-location-icon\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\AutomationSpace\\PlayWrightTests\\learnPlayWright\\test-results\\ui-ourOffices-Our-Offices-Validate-an-office-d-f0eb4-layed-when-clicking-on-Google-map-location-icon\\test-failed-1.png"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\AutomationSpace\\PlayWrightTests\\learnPlayWright\\integration\\tests\\ui\\ourOffices.spec.ts",
+                        "column": 18,
+                        "line": 67
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "8db9684a31fcc9fff3aa-294302a43f4a653f5f36",
+              "file": "ui/ourOffices.spec.ts",
+              "line": 49,
+              "column": 7
+            },
+            {
+              "title": "Validate office locations on Google map",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip"
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-17T13:13:50.584Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8db9684a31fcc9fff3aa-e19a7774684a8cd089ac",
+              "file": "ui/ourOffices.spec.ts",
+              "line": 72,
+              "column": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ui\\whatMakesUsDifferent.spec.ts",
+      "file": "ui/whatMakesUsDifferent.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "What Makes Us Different",
+          "file": "ui/whatMakesUsDifferent.spec.ts",
+          "line": 8,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Validate Peace of mind link and contents",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 14187,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-17T13:13:50.753Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d47f9c5424572c18db1-111201f0ffd2c9139914",
+              "file": "ui/whatMakesUsDifferent.spec.ts",
+              "line": 22,
+              "column": 7
+            },
+            {
+              "title": "Validate Key facts link and contents",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 15693,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-17T13:13:52.607Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d47f9c5424572c18db1-c2af2b0bcd497cd30875",
+              "file": "ui/whatMakesUsDifferent.spec.ts",
+              "line": 33,
+              "column": 7
+            },
+            {
+              "title": "Validate Our leaders link and contents",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 14578,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-17T13:13:54.462Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d47f9c5424572c18db1-6552dde1daa08378994e",
+              "file": "ui/whatMakesUsDifferent.spec.ts",
+              "line": 44,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ui\\whatWeDoForYou.spec.ts",
+      "file": "ui/whatWeDoForYou.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "What We Do For You",
+          "file": "ui/whatWeDoForYou.spec.ts",
+          "line": 8,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Validate managing your financial life link and contents",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 6514,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-17T13:14:04.941Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3d22ec5985e7b168da63-2ad0c230b9092cc99cc5",
+              "file": "ui/whatWeDoForYou.spec.ts",
+              "line": 22,
+              "column": 7
+            },
+            {
+              "title": "Validate Wealth planning link and contents",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 8591,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-17T13:14:04.961Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3d22ec5985e7b168da63-cdf4ef232a03993d36dc",
+              "file": "ui/whatWeDoForYou.spec.ts",
+              "line": 33,
+              "column": 7
+            },
+            {
+              "title": "Validate investment management link and contents",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 7830,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-17T13:14:08.312Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3d22ec5985e7b168da63-b78f9038db4bbb185975",
+              "file": "ui/whatWeDoForYou.spec.ts",
+              "line": 46,
+              "column": 7
+            },
+            {
+              "title": "Validate Family office services link and contents",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 8121,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-17T13:14:09.058Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3d22ec5985e7b168da63-e8684c0b47cc00b3daea",
+              "file": "ui/whatWeDoForYou.spec.ts",
+              "line": 58,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

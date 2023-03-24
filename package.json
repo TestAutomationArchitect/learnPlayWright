@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "aws-sdk": "^2.1315.0",
+    "babel": "^6.23.0",
+    "dotenv": "^16.0.3",
+    "i": "^0.3.7",
+    "istanbul": "^0.4.5",
+    "lint": "^1.1.2",
+    "oracledb": "^5.5.0",
+    "playwright": "^1.31.2",
+    "sqlite3": "^5.1.4",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@playwright/test": "^1.29.1",
+    "cypress": "^9.5.4"
+  },
+  "scripts": {
+    "test:pw": "playwright test",
+    "test:ui": "npx playwright test ./integration/tests/ui/ --config ./integration/configs/playwright.config.ts",
+    "test:ui:headed": "npx playwright test ./integration/tests/ui/ --headed --config ./integration/configs/playwright.config.ts",
+    "test:mobile": "npx playwright test ./integration/tests/mobile/ --config ./integration/configs/playwright.mobile.config.ts",
+    "test:mobile:headed": "npx playwright test ./integration/tests/mobile/ --headed --config ./integration/configs/playwright.mobile.config.ts",
+    "lint": "prettier --write \"integration/**/*.{js, jsx, ts, tsx, json,css, scss,md}\""
+  }
+}
